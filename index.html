@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Bart Raeves</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lugrasimo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Salsa&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lugrasimo&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Salsa&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo-holder">
+        <div class="logo">
+          <div class="first square"></div>
+          <div class="second square">BR</div>
+          <div class="third square"></div>
+        </div>
+      </a>
+      <nav>
+        <ul id="menu">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li>
+            <a href="mailto:raevesbart.career@gmail.com" class="button contact"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+        <a href="#" class="mobile-menu" onclick="toggleMobileMenu();"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            /></svg
+        ></a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero container" id="hero">
+        <div class="hero-text">
+          <div>
+            <h1>
+              <small>I am</small>
+              Bart Raeves
+            </h1>
+            <p>
+              Data analyst and web developer from Belgium with a passion for
+              coding and data. I’m constantly looking to expand my knowledge
+              base and grow with the new technologies.
+            </p>
+          </div>
+          <div class="buttons">
+            <a href="mailto:raevesbart.career@gmail.com" class="button full"
+              >Contact Me</a
+            >
+            <a href="./assets/Resume.pdf" class="button outline">View Resume</a>
+          </div>
+          <div class="socials">
+            <a href="https://github.com/BartRaeves">
+              <img src="./assets/img/github.svg" alt="github" role="img" />
+            </a>
+            <a href="https://www.linkedin.com/in/bart-raeves-0126b031/">
+              <img src="./assets/img/linkedin.svg" alt="linkedin" role="img" />
+            </a>
+          </div>
+        </div>
+        <div class="hero-img">
+          <img src="./assets/img/me.jpg" alt="Picture Bart" width="100%" />
+        </div>
+      </section>
+      <section class="quote container">
+        <div class="quote-text">
+          <h2>
+            “Education is the kindling of a flame, not the filling of a vessel.”
+            <small>- Socrates</small>
+          </h2>
+        </div>
+      </section>
+      <section class="skills container" id="skills">
+        <div class="skills title">
+          <h2><small>About Me</small>Skills</h2>
+        </div>
+        <div class="skills-holder">
+          <div class="left-column">
+            <h3>Data Analytics</h3>
+            <ul>
+              <li>Python</li>
+              <li>Dax</li>
+              <li>M Code</li>
+            </ul>
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <h3>Backend</h3>
+            <ul>
+              <li>Python</li>
+              <li>Node.js</li>
+            </ul>
+          </div>
+          <div class="right-column">
+            <h3>About me</h3>
+            <p>
+              Data analyst and web developer from Belgium with a passion for
+              coding and data. I’m constantly looking to expand my knowledge
+              base and grow with the new technologies. Currently full-time data
+              analyst looking to get better in web development and machine
+              learning.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="projects container" id="projects">
+        <div class="projects title">
+          <h2><small>Complete</small>Projects</h2>
+        </div>
+        <div class="project-grid">
+          <div class="proj">
+            <img
+              src="./assets/img/portfolio.png"
+              alt="portfolio website"
+              width="100%"
+            />
+            <p>Portfolio Website</p>
+          </div>
+          <div class="proj">
+            <img src="./assets/img/Powerbi Visual.png" alt="powerbi visual" />
+            <p>Custom Bulk Filter Visual</p>
+          </div>
+          <div class="proj">
+            <img src="./assets/img/tindog.png" alt="tindog" />
+            <p>Tindog</p>
+          </div>
+        </div>
+      </section>
+      <section class="experience container" id="experience">
+        <h2><small>Recent</small>Work Experience</h2>
+        <div class="jobs">
+          <article>
+            <figure>
+              <div>
+                <img
+                  src="./assets/img/3Dsystems.png"
+                  alt="3D Systems"
+                  width="100%"
+                />
+                <figcaption>3D Systems</figcaption>
+              </div>
+            </figure>
+            <h3>3D Systems</h3>
+            <div>2017-Present</div>
+            <p>Data Analyst & Change Control Coordinator</p>
+          </article>
+          <article>
+            <figure>
+              <div>
+                <img
+                  src="./assets/img/acv.png"
+                  alt="Acv International"
+                  width="100%"
+                />
+                <figcaption>ACV International</figcaption>
+              </div>
+            </figure>
+            <h3>ACV International</h3>
+            <div>2015-2017</div>
+            <p>R&D Design Engineer & Project Management Engineer</p>
+          </article>
+          <article>
+            <figure>
+              <div>
+                <img
+                  src="./assets/img/deceuninck.png"
+                  alt="Deceuninck"
+                  width="100%"
+                />
+                <figcaption>Deceuninck</figcaption>
+              </div>
+            </figure>
+            <h3>Deceuninck</h3>
+            <div>2011-2015</div>
+            <p>Product Engineer & Product Designer</p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
